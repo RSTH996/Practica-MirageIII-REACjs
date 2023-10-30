@@ -1,0 +1,320 @@
+body{width: 100%;}
+/*cabecera*/
+#TC{margin-left: 30%;}
+#lC{padding-left: 3%;}
+#lC li{
+    padding-left: 0.1%;
+    list-style-type:"/";
+    display: inline-block;
+}
+/*Imagenes*/
+/*Israel*/
+.lista img{
+  max-width: 500px;
+  max-height: 500px;
+}
+#M1{
+    margin-left: 50%;
+    margin-top: -33%;
+}
+#M2{
+    margin-left: 80%;
+    margin-top: -20%;
+}
+#M2 figure{ 
+    max-width: 50%;
+    margin-left: 0%;
+}
+#M3{
+    margin-top: -10%;
+    margin-left: 50%;
+}
+#M4{
+    margin-top: 0%;
+    margin-left: 65%;
+}
+#M4 figure{max-width: 30%;}
+.lista li{
+    list-style: none;
+}
+/*Sudáfrica*/
+#SAh{margin-top: -18%;}
+/*Indo-paquistaní*/
+#M6{
+    margin-left: 50%;
+    margin-top: -35%;
+}
+/*Malvinas*/
+#M7{
+    margin-left: 15%;
+    margin-top: 3%;
+}
+#M8{
+    margin-left: 45%;
+    margin-top: -18.5%;
+}
+/*texto*/
+#IE{
+    text-align: left;
+    max-width: 50%;
+}
+#SA{ 
+    max-width: 60%;
+}
+#IP{max-width: 50%;}
+#I-P{
+    margin-left: 31%;
+    margin-top: -15%;
+}
+#Malvinas{
+    margin-top: 5%;
+    margin-left: -43%;
+}
+#AI{width: 95%;}
+
+#boton{margin-left: 50%;}
+
+@media only screen and (max-width: 1060px){
+    body{
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+    #IE1{width: 95%;}
+    #IE{ display:contents;}  
+
+    .lista{width: 90%;}
+
+    #M1{
+        margin-top: 0%;
+        margin-left: -5%;
+    }
+    #M2{
+        margin-top:-40%;
+        margin-left: 70%;
+    }
+    #M2 figure{
+        margin-left: 10%;
+        margin-top: 5%;
+        width: 50%;
+    }
+    #M3{
+        margin-top: -25%;
+        margin-left: -5%;
+    }
+    #M4{        
+        margin-top: -5%;
+        margin-left: 50%;}
+    #M4 figure{display: contents;}
+
+
+    #SAh{margin-top: -25%;}
+    #SA{
+        width: 43%;
+        margin-top: 0%;
+    }
+    #M5{ margin-left:-5%;}
+
+    #I-P{
+        margin-left: 60%;
+        margin-top:-50%;
+        width: 80%;
+    }
+    #IP{margin-left: -10%;}    
+    #M6{
+        height: 350px;
+        display: flex;
+        margin-top: 5%;
+        margin-left: -20%;
+    }
+    #M6 figure{
+        display: flex;
+        margin-top: 40%;
+        margin-left: -50%;
+    }
+    
+    #Malvinas{
+        width: 100%;
+        margin-left: -75%; 
+        margin-top: -60%;       
+    }
+    #AI{width: 60%;}
+    #M7{margin-left: -10%;}
+    #M8{
+        margin-left: 63%;
+        margin-top:-50%;        
+    }
+    #boton{
+        position: relative;
+        width: 150px;
+        margin-top: 0%;
+        left: 150px;
+    }
+    
+}
+@media only screen and (max-width: 770px){
+    #TC{margin-left: 5%;}
+    #lC{margin-left: -3%;}
+    #principal{
+        max-width: 95%;
+    }
+    #IE1{width: 95%;}
+    #IE{ width: 500px;}    
+    .lista{width: 90%;}
+    #M1{
+        margin-left: -3%;
+    }
+    #M2{
+        display: flex;
+        margin-top:-115%;
+        margin-left: 28%;
+    }
+    #M2 figure{
+        margin-top: 135%;
+        margin-left: -32%;
+        width: 10%;
+    }
+    #M3{
+        margin-top: -13%;
+        margin-left: -3%;
+        padding-bottom: 10%;
+    }
+    #M4{
+        width: 500px;
+        margin-top: -10%;
+        margin-left: -2%;
+    }
+    #M4 figure{display: contents;}
+
+
+    #SAh{
+        margin-top: 0%;
+    }
+    #SA{
+        max-width: 30%;
+    }
+    #M5{ 
+        margin-top: 0%;
+        margin-left:0%;    
+    }
+
+    #I-P{
+        margin-left: 0%;
+        margin-top:5%;
+    }
+    #IP{
+        width: 2000px;
+    }
+    #M6{
+        margin-top: 5%;
+        margin-left: 0%;
+    }
+    #M6 figure{
+        margin-top: 26%;
+        margin-left: -25%;
+    }
+
+    #Malvinas{
+        width: 300px;
+        margin-left: 0%; 
+        margin-top: 5%;       
+    }
+    #AI{width: 650px;}
+    #M7{
+        margin-left: 5%;
+        width: 400px;
+    }
+    #M8{
+        margin-left: 5%;
+        margin-top: 0%;        
+        width: 400px;
+    }
+
+    #boton{
+        margin-top: 3%;
+        left: -600px;
+    }
+}
+@media only screen and (max-width: 650px){
+     #TC{
+        display: block;
+        position: absolute; 
+        top: 20px;       
+    }
+
+    #lC{margin-top: 2%;}
+    #principal{max-width: 27%;}
+    #IE1{width: 42%;}
+    #IE{ display:contents;}    
+    .lista{
+        width: 90%;
+        display: inline-block;
+    }
+    #M1{margin-left: 0%;}
+    #M2{
+        margin-top: 0%;
+        margin-left: 10%;
+    }
+    #M2 figure {
+        display: flex;
+        width: 35%;
+        margin-top: 110%;
+        margin-left: -40%;
+    }
+    #M3{
+        margin-top: 5%;
+        margin-left: 0%;
+        padding-bottom: 10%;
+    }
+    #M4{
+        width: 500px;
+        margin-top: -4%;
+        margin-left: 0%;
+    }
+    #M4 figure{display: contents;}
+
+
+    #SAh{
+        margin-top: 0%;
+        margin-left: 5%;
+    }
+    #SA{
+        margin-left: 5%;
+        width: 90%;
+    }
+    #M5{ 
+        margin-top: 0%;
+        margin-left:0%;    
+    }
+
+    #I-P{
+        margin-left: 0%;
+        margin-top:2%;
+    }
+    #IP{
+        width: 5100px;
+        margin-left: 0%;
+    }
+    #M6{
+        margin-top: 0%;
+        margin-left: 0%;
+    }
+    #M6 figure{
+        margin-top: 37%;
+        margin-left: -35%;
+    }
+
+    #Malvinas{
+        width: 600px;
+        margin-left: 0%; 
+        margin-top: 5%;       
+    }
+    #AI{width: 90%;}
+    #M7{margin-left: 0%;}
+    #M8{
+        margin-left: 0%;
+        margin-top: 0%;
+    }
+    #boton{
+        position: relative;
+    }
+}

@@ -1,0 +1,341 @@
+/*Cabecera*/
+#Cj{
+    padding-left: 1%;
+    list-style: ' / ';
+    display: flex;
+}
+li {list-style: none;}
+#Cj li{padding-left: 0.2%;}
+/*textos*/
+#h{
+    left: 2%;
+    top: 3%;
+}
+#b1{
+    margin: 0%;
+    width: 80%;    
+}
+.texto1{margin-left: 3%;}
+
+#inicio{
+   margin-left: 0%;
+}
+/*Foto de argentina*/
+.FT li{list-style: none;}
+.FT img{
+    width: 500px;
+    height: 350px;
+}
+#AR2{
+    margin-left: 32%;
+    margin-top: -24%;
+}
+#AR3{
+    margin-left: 65%;
+    margin-top: -24%;    
+    padding-bottom: 2%;
+}
+/*Foto de Israel*/
+#IS2{
+    margin-left: 33%;
+    margin-top: -24%;    
+    padding-bottom: 2%;
+}
+/*Foto de australia*/
+#AU2{
+    margin-left: 37%;
+    margin-top: -24%;    
+}
+#AU3{
+    margin-left: 0%;
+    margin-top: 0%;    
+}
+#AU4{
+    margin-left: 37%;
+    margin-top: -23%;    
+}
+/*Sudafrica*/
+#AF2{
+    margin-left: 35%;
+    margin-top: -24%;    
+    padding-bottom: 2%;
+}
+/*Francia*/
+#FR2{
+    margin-left: 34%;
+    margin-top: -24%;   
+}
+#FR3{
+    margin-left: 68%;
+    margin-top: -24%;    
+    padding-bottom: 1%;
+}
+/*Suiza*/
+#SU2{
+        margin-left: 35%;
+        margin-top: -24%;    
+        padding-bottom: 2%;
+}
+/*Paqustan*/
+#PK2{
+    margin-left: 35%;
+        margin-top: -24%;  
+}
+#PK3{
+    margin-left: 0%;
+    margin-top: 0%;
+}
+#PK4{
+    margin-left: 35%;
+    margin-top: -24%;
+}
+
+
+#boton{
+    margin-left: 40%;
+}
+
+@media only screen and (max-width: 1060px){
+    #TC{margin-left: 20%;}
+    #Cj{margin-left: 0%;}
+    #b1{width: 95%;}
+    .texto1{
+        width: 95%;
+    }
+    .FT img{
+      width: 500px;
+      height: 300px;
+    }  
+    #AR1{margin-left: -5%;}
+    #AR2{        
+        margin-left: 50%;
+        margin-top: -32.5%;
+    }
+    #AR3{
+        margin-left: 20%;
+        margin-top: 0%;
+    }
+    #IS1{margin-left: -5%;}
+    #IS2{
+       margin-left: 50%;
+        margin-top: -32.5%;
+    }
+
+    #AU1{margin-left: -5%;}
+    #AU2{       
+        margin-left: 50%;
+        margin-top: -32.5%;
+    }
+    #AU3{
+        margin-left: -5%;
+        margin-top: 0%;
+    }
+    #AU4{
+        margin-left: 50%;
+         margin-top: -32.5%;
+    }
+
+    #AF1{margin-left: -4%;}
+    #AF2{
+        margin-left: 50%;
+        margin-top: -32.5%;
+    }
+
+    #FR1{margin-left: -5%;}
+    #FR2{
+        margin-left: 50%;
+         margin-top: -32.5%;
+    }
+    #FR3{
+        margin-top: 0%;
+        margin-left: 25%;
+    }
+
+    #SU1{margin-left: -4%;}
+    #SU2{
+        margin-left: 50%;
+        margin-top: -32.5%;
+    }
+
+    #PK1{margin-left: -4%;}
+    #PK2{
+        margin-left: 50%;
+         margin-top: -32.5%;
+    }
+    #PK3{        
+        margin-top: 0%;
+        margin-left: -4%;
+    }
+    #PK4{
+        margin-left: 50%;
+         margin-top: -32.5%;
+    }
+    #boton{margin-left: 35%;}
+}
+@media only screen and (max-width: 770px){
+    #TC{margin-left: 20%;}
+    #Cj{margin-left: 0%;}
+    #b1{width: 95%;}
+    .texto1{
+        width: 95%;
+    }
+    .FT{margin-left: 5%;}
+    .FT img{
+      width: 500px;
+      height: 300px;
+    }  
+    #AR1{margin-left: 0%;}
+    #AR2{        
+        margin-left: 0%;
+        margin-top: 0%;
+    }
+    #AR3{
+        margin-left: 0%;
+        margin-top: 0%;
+    }
+    #IS1{margin-left: 0%;}
+    #IS2{
+       margin-left: 0%;
+        margin-top: 0%;
+    }
+
+    #AU1{margin-left: 0%;}
+    #AU2{       
+        margin-left: 0%;
+        margin-top: 0%;
+    }
+    #AU3{
+        margin-left: 0%;
+        margin-top: 0%;
+    }
+    #AU4{
+        margin-left: 0%;
+         margin-top: 0%;
+    }
+
+    #AF1{margin-left: 0%;}
+    #AF2{
+        margin-left: 0%;
+        margin-top: 0%;
+    }
+
+    #FR1{margin-left: 0%;}
+    #FR2{
+        margin-left: 0%;
+         margin-top: 0%;
+    }
+    #FR3{
+        margin-top: 0%;
+        margin-left: 0%;
+    }
+
+    #SU1{margin-left: 0%;}
+    #SU2{
+        margin-left: 0%;
+        margin-top: 0%;
+    }
+
+    #PK1{margin-left: 0%;}
+    #PK2{
+        margin-left: 0%;
+         margin-top: 0%;
+    }
+    #PK3{        
+        margin-top: 0%;
+        margin-left: 0%;
+    }
+    #PK4{
+        margin-left: 0%;
+         margin-top: 0%;
+    }
+    #boton{
+        width: 100px;
+        margin-top: 0%;
+        margin-left: 125%;
+    }    
+}
+
+@media only screen and (max-width: 650px){
+    #TC{margin-left: 20%;}
+    #Cj{
+        margin-left: 0%;
+        margin-top: 15%;
+    }
+    #b1{width: 95%;}
+    .texto1{
+        width: 95%;
+    }
+    .FT{margin-left: 0%;}
+    .FT img{
+      width: 500px;
+      height: 300px;
+    }  
+    #AR1{margin-left: 0%;}
+    #AR2{        
+        margin-left: 0%;
+        margin-top: 0%;
+    }
+    #AR3{
+        margin-left: 0%;
+        margin-top: 0%;
+    }
+    #IS1{margin-left: 0%;}
+    #IS2{
+       margin-left: 0%;
+        margin-top: 0%;
+    }
+
+    #AU1{margin-left: 0%;}
+    #AU2{       
+        margin-left: 0%;
+        margin-top: 0%;
+    }
+    #AU3{
+        margin-left: 0%;
+        margin-top: 0%;
+    }
+    #AU4{
+        margin-left: 0%;
+         margin-top: 0%;
+    }
+
+    #AF1{margin-left: 0%;}
+    #AF2{
+        margin-left: 0%;
+        margin-top: 0%;
+    }
+
+    #FR1{margin-left: 0%;}
+    #FR2{
+        margin-left: 0%;
+         margin-top: 0%;
+    }
+    #FR3{
+        margin-top: 0%;
+        margin-left: 0%;
+    }
+
+    #SU1{margin-left: 0%;}
+    #SU2{
+        margin-left: 0%;
+        margin-top: 0%;
+    }
+
+    #PK1{margin-left: 0%;}
+    #PK2{
+        margin-left: 0%;
+         margin-top: 0%;
+    }
+    #PK3{        
+        margin-top: 0%;
+        margin-left: 0%;
+    }
+    #PK4{
+        margin-left: 0%;
+         margin-top: 0%;
+    }
+    #boton{
+        position: relative;
+        left: -500px;
+    }  
+}

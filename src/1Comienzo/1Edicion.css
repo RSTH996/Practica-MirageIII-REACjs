@@ -1,0 +1,170 @@
+/*cabecera*/
+.l2{
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    padding-left: 3px;    
+}
+#TC{
+    padding-left: 5%;
+}
+#l1{
+    padding-left: 7%;
+}
+
+/*texto*/
+#P1{
+    max-width: 85%;
+    display:block;
+    margin-left: 5%;
+}
+.P{
+    width: 100%;
+    margin: 0%;
+}
+section{
+    height: 200px;
+    max-width: 100vh;
+    display:inline-block ;
+}
+/*Foto de los aviones del concurso*/
+.L{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    margin-left: 35%;
+    justify-content: center;
+}
+.Foto{
+    max-width: 300px;
+    max-height: 300px;
+    display: flex;
+    padding: 3px 10px;
+}
+.Foto figure{    
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+#SE{
+    margin-left: 5%;
+    height: 140px;    
+}
+#MD{
+    margin-left: 10%;
+}
+#MDF{
+    margin-left: 10%;
+}
+/*foto del mirage I*/
+#LU{
+    margin-left: 180%;
+}
+#LU figure{
+    display: block;
+}
+/*boton*/
+
+#Boton1{    
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin-left: 47%;
+    margin-top: 3%;
+}
+@media only screen and (max-width: 1060px){   
+    body{max-width: 100%;}   
+    .P{width: 100%;}
+    .L img{
+       width: 400px;
+       height: 200px;
+   }
+   .L{
+    max-width: 100%;  
+    display: flex;
+    margin-left: -7%;
+    }
+    #SE{
+        margin-left: 5%;
+    }
+    #PL{
+        margin-top: 2%;
+        padding-bottom: 0%;
+        overflow-y: hidden;
+    }
+    #LU{
+        height: 400px;
+        width: 300px;
+        margin-left: 70%;
+    }
+#Boton1{    
+    display: flex;
+    justify-content: center;
+    margin-left: 35%;
+}
+   }
+@media only screen and (max-width: 770px){   
+    #PC{margin-left: 0%;}    
+   .P{max-width: 85%;}
+   .L{
+    max-width: 80%;  
+    display: inline-flex;
+    margin-left: -10%;
+    overflow-x: hidden;
+    }
+    .L img{
+        width: 250px;
+        height: 150px;
+    }
+    #SO1{
+        margin-top: 30%;
+        margin-left: -65%;        
+    }
+    #PL{
+        margin-top: 30%;
+    }
+    #LU{
+        margin-left: 45%;
+    }
+#Boton1{    
+    position: relative;
+    justify-content: center;
+    margin-left: 35%;
+    margin-top: 6%;
+}
+}
+
+@media only screen and (max-width: 650px){   
+    #PC{margin-left: 2%;}  
+    #PC h1{margin-left: 0;}
+    #PC ul{margin-top: 15%;}  
+    .P{max-width: 100%;}
+    .L{ 
+     display: inline-block;
+     margin-left: 10%;
+     }
+    .L img{
+        width: 500px;
+        height: 150px;
+    }
+    #MD{margin-left: -2%;}
+    #SE{margin-left: -2%;}
+    #SO1{
+        margin-left: 0%;
+        margin-top: -3%;
+    }
+    #PL{
+        margin-top: 0%;
+        padding-bottom: 0%;
+    }
+    #LU{ 
+        margin-left: 15%;
+        padding-bottom: 0%;    
+    }
+
+ #Boton1{    
+    display: flex;
+     margin-left: 25%;
+     margin-top: -35%;
+ }
+}
