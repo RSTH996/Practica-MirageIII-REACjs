@@ -21,7 +21,11 @@
     height: 75%;
     margin-left: 0%;
 }
-button{background-color: gold;}
+button{
+    background-color: gold;
+    padding: 20px;
+}
+button:hover{background-color: green;}
 /*Píe de página*/
 #REAC {
     margin-top: 5%;
