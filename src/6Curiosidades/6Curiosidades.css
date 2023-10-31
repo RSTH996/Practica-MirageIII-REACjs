@@ -18,7 +18,7 @@
   display: flex;
 }
 #subsonico{
-  background-image: url("F:\Projecto internet\REAC\mirage\src\png\Subsonico.png");
+  background-image: url("Subsonico.png");
   width: 350px;
   height: 300px;
   background-repeat: no-repeat;
@@ -33,7 +33,7 @@
 }
 
 #supersonico{
-  background-image: url("F:\Projecto internet\REAC\mirage\src\png\Supesonico.png");
+  background-image: url("Supesonico.png");
   width: 500px;
   height: 550px;
   background-repeat: no-repeat;
@@ -58,7 +58,7 @@
 #DF{margin-left: 25%;}
 
 #difusor{
-  background-image: url("F:\Projecto internet\REAC\mirage\src\png\difusorMarcado1.png");
+  background-image: url("difusorMarcado1.png");
   background-repeat: no-repeat;
   width: 600px;
   height: 400px;
